@@ -15,8 +15,8 @@ algorithm to display all-pairs shortest paths as we covered in the class.**
 	
 	6 -1 -1 0
 	
-	The first line (= 4 in the example) indicates that there are four vertices in the input graph. Then the
-following 4 lines present distance between all pairs. Note that the value –1 indicates the infinity.
+	The first line (= 4 in the example) indicates that there are four vertices in the input graph. 
+	Then the following 4 lines present distance between all pairs. Note that the value –1 indicates the infinity.
 	
 1. Sample Run 0: Assume that the user typed the following lines
 	
