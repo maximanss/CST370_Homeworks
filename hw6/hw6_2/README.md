@@ -17,8 +17,7 @@ Input format: This is a sample input from a user.
 	
 	1 2 0 1
 	
-	The first line (= 4 and 4 in the example) indicates that the board size is 4 by 4. From the second line, the
-configuration of the board is presented. The number 1 indicates that there is a coin on the cell, while the
+	The first line (= 4 and 4 in the example) indicates that the board size is 4 by 4. From the second line, the configuration of the board is presented. The number 1 indicates that there is a coin on the cell, while the
 number 0 means no coin. A cell with the number 2 indicates that the cell is not accessible. For the
 homework, you can assume that the board size is less than or equal to 25 x 25.
 
@@ -47,13 +46,48 @@ destination spot, your solution should always pick the path from the left, not f
 more than one optimal path.
 
 	4 5
+	
 	0 0 1 0
+	
 	0 1 1 0
+	
 	0 1 1 0
+	
 	1 1 0 0
+	
 	0 0 1 0 
 
 	This is the correct output.
 	
 	Max coins:4
+	
 	Path:(1,1)->(1,2)->(2,2)->(2,3)->(2,4)->(2,5)->(3,5)->(4,5)
+	
+3. Sample Run 2: Assume that the user typed the following lines
+
+	3 2
+
+	1 2 1
+	
+	1 1 1
+	
+	This is the correct output.
+
+	Max coins:4
+
+	Path:(1,1)->(1,2)->(2,2)->(3,2)
+
+4. Sample Run 3: Assume that the user typed the following lines
+
+	4 2
+	
+	0 1 0 0
+	
+	1 1 2 0
+
+	This is the correct output.
+	
+	Max coins:1
+
+	Path:(1,1)->(2,1)->(3,1)->(4,1)->(4,2)
+	
