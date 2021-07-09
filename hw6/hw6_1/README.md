@@ -3,16 +3,16 @@
 **Write a C++ (or Java) program called hw6_1.cpp (or hw6_1.java) to conduct the radix sort.**
 1. Sample Run 0: Assume that a user typed the following lines
 
-5
-77 23 17 5 12
+>5
+>77 23 17 5 12
 
-The first line (= 5 in the example) indicates that there are five numbers in the second line (= 77, 23, 17, 5,
+>The first line (= 5 in the example) indicates that there are five numbers in the second line (= 77, 23, 17, 5,
 and 12 in the example) for the sorting.
 
-This is the correct output. Note that your program should present the intermediate steps of the radix sort.
+>This is the correct output. Note that your program should present the intermediate steps of the radix sort.
 
-12 23 5 77 17
-5 12 17 23 77
+>12 23 5 77 17
+>5 12 17 23 77
 
 2. Sample Run 1: Assume that the user typed the following lines
 
