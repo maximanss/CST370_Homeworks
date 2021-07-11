@@ -7,20 +7,16 @@ is not accessible.**
 
 Input format: This is a sample input from a user.
 
-	4 4
+4 4
+0 2 1 1
+0 1 2 1
+0 0 1 2
+1 2 0 1
 	
-	0 2 1 1
-	
-	0 1 2 1
-	
-	0 0 1 2
-	
-	1 2 0 1
-	
-	The first line (= 4 and 4 in the example) indicates that the board size is 4 by 4. From the second line,
-	the configuration of the board is presented. The number 1 indicates that there is a coin on the cell,
-	while the number 0 means no coin. A cell with the number 2 indicates that the cell is not accessible.
-	For the homework, you can assume that the board size is less than or equal to 25 x 25.
+The first line (= 4 and 4 in the example) indicates that the board size is 4 by 4. From the second line,
+the configuration of the board is presented. The number 1 indicates that there is a coin on the cell,
+while the number 0 means no coin. A cell with the number 2 indicates that the cell is not accessible.
+For the homework, you can assume that the board size is less than or equal to 25 x 25.
 
 1. Sample Run 0: Assume that the user typed the following lines
 
