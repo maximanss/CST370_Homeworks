@@ -3,20 +3,20 @@
 **Write a C++ (or Java) program called hw6_3.cpp (or hw6_3.java) that implements the Floyd’s
 algorithm to display all-pairs shortest paths as we covered in the class.**
 
-	Input format: This is a sample input from a user.
+Input format: This is a sample input from a user.
 
-	4
+4
 	
-	0 -1 3 -1
+0 -1 3 -1
 	
-	2 0 -1 -1
+2 0 -1 -1
 	
-	-1 7 0 1
+-1 7 0 1
 	
-	6 -1 -1 0
+6 -1 -1 0
 	
-	The first line (= 4 in the example) indicates that there are four vertices in the input graph. 
-	Then the following 4 lines present distance between all pairs. Note that the value –1 indicates the infinity.
+The first line (= 4 in the example) indicates that there are four vertices in the input graph. 
+Then the following 4 lines present distance between all pairs. Note that the value –1 indicates the infinity.
 	
 1. Sample Run 0: Assume that the user typed the following lines
 	
