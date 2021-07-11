@@ -7,11 +7,11 @@ is not accessible.**
 
 Input format: This is a sample input from a user.
 
-4 4
-0 2 1 1
-0 1 2 1
-0 0 1 2
-1 2 0 1
+<p>4 4</p>
+<p>0 2 1 1</p>
+<p>0 1 2 1</p>
+<p>0 0 1 2</p>
+<p>1 2 0 1</p>
 	
 The first line (= 4 and 4 in the example) indicates that the board size is 4 by 4. From the second line,
 the configuration of the board is presented. The number 1 indicates that there is a coin on the cell,
